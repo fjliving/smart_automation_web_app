@@ -5,5 +5,5 @@ scikit-learn
 flask
 flask-classful
 gunicorn
-paho-mqt
+paho-mqtt
 psycopg2
