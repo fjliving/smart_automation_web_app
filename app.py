@@ -100,4 +100,4 @@ db_host = "postgresql://sm_postgres_db_l308_user:WTxo76idwPTZ9z2oQnVJPDjDOct2YJv
 
 app_client = ClientApp(mqtt_host, db_host)
 ClientApp.register(app) # Register the class with the app
-app.run(debug=True)
+app.run(debug=True, host='0.0.0.0')
