@@ -6,4 +6,4 @@ flask
 flask-classful
 gunicorn
 paho-mqtt
-psycopg2
+psycopg
