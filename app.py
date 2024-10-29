@@ -95,7 +95,7 @@ class ClientApp(FlaskView):
         return df
 
        
-mqtt_host = "10.155.14.88"
+mqtt_host = "test.mosquitto.org" #10.155.14.88"
 db_host = "postgresql://sm_postgres_db_l308_user:WTxo76idwPTZ9z2oQnVJPDjDOct2YJv3@dpg-crvg1olds78s73emer6g-a.ohio-postgres.render.com/sm_postgres_db_l308"
 
 app_client = ClientApp(mqtt_host, db_host)
